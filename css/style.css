@@ -1,9 +1,44 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF0000;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: "Trirong", serif;
+    font-size: 40px;
+    color: pink;
+}
+
+.img1{
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.img2 {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 20px solid #0073e6; /* Add a 2px solid border with a blue color */
+  border-radius: 10px;
+}
+hr {
+    border: none;
+    height: 5px; /* Set the height of the horizontal rule */
+    background-color: #333; 
+    border-top: 1px solid #555; 
+    border-bottom: 1px dashed #777; 
 }
 
 nav {
+    font-family: "Trirong", serif;
     background-color: aquamarine;
     padding: 10px;
     display: flex;
@@ -12,11 +47,57 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
     text-decoration: none; 
-    color: #333;
     padding: 10px 20px; 
     border-radius: 5px; 
     background-color: #f0f0f0; 
-    transition: background-color 0.3s ease; 
 }
+
+nav a:hover {
+    background-color: bisque;
+    color: red;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:aquamarine;
+    padding: 20px;
+    color: blue;
+}
+
+footer a {
+    text-decoration: none;
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: bisque;
+    color: red;
+    border-radius: 5px;
+}
+
+.c1 {
+    background-color: aquamarine;
+
+}
+
+.c2 {
+    background-color: lightgreen;
+}
+
+.c3 {
+    background-color: aquamarine;
+    padding: 2px;
+}
+
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: blue; /* Set the default link text color */
+  }
+  
+  a:hover {
+    color: #FF0000; /* Change the link text color to red on hover */
+  }
