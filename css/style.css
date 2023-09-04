@@ -101,3 +101,7 @@ a {
   a:hover {
     color: #FF0000; /* Change the link text color to red on hover */
   }
+
+  .roundedimg {
+    border-radius: 50%;
+  }
