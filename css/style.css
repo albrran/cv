@@ -8,17 +8,19 @@ body {
 
 h1 {
     font-family: 'Caveat', cursive;
-    font-size: 50px;
+    font-size: 70px;
     color: pink;
     text-align: center;
 }
 
 h2 {
     text-align: center;
+    font-size: 40px;
 }
 
 p {
     text-align: center;
+    font-size: 20px;
 }
 
 label {
@@ -62,16 +64,15 @@ li {
 }
 hr {
     border: none;
-    height: 5px; /* Set the height of the horizontal rule */
-    background-color: #333; 
-    border-top: 1px solid #555; 
-    border-bottom: 1px dashed #777; 
+    height: 5px; 
+    border-top: 6px dashed black;
+    border-radius: 5px;
 }
 
 nav {
     font-family: "Trirong", serif;
     background-color: darkslategrey;
-    padding: 10px;
+    padding: 1px;
     display: flex;
     justify-content: flex-end;
     border-bottom: 2px solid black;
@@ -79,9 +80,10 @@ nav {
 
 nav a {
     text-decoration: none; 
-    padding: 10px 20px; 
+    padding: 1px; 
     border-radius: 5px; 
-    background-color: #f0f0f0; 
+    background-color: orange; 
+    font-size: 15px;
 }
 
 nav a:hover {
@@ -118,7 +120,9 @@ footer a:hover {
 }
 
 .c2 {
-    background-color: lightgreen;
+    background-color: darkslategray;
+    background-size: cover;
+    padding: 200px;
 }
 
 .c3 {
@@ -126,12 +130,12 @@ footer a:hover {
 }
 
 a {
-    text-decoration: none; /* Remove underlines from links */
-    color: blue; /* Set the default link text color */
+    text-decoration: none; 
+    color: darkgreen; 
   }
   
   a:hover {
-    color: #FF0000; /* Change the link text color to red on hover */
+    color:pink; /* Change the link text color to red on hover */
   }
 
   .roundedimg {
