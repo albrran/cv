@@ -10,6 +10,8 @@ h1 {
     font-family: 'Caveat', cursive;
     font-size: 70px;
     color: pink;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;    
     text-align: center;
 }
 
@@ -126,7 +128,7 @@ footer a:hover {
 }
 
 .c3 {
-    background-color: #FF0000;
+    background-color: white;
 }
 
 a {
