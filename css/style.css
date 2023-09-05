@@ -70,7 +70,8 @@ hr {
     border: none;
     height: 5px; 
     border-top: 6px dashed black;
-    border-radius: 5px;
+    margin: 0px;
+    padding: 0px;
 }
 
 nav {
@@ -79,7 +80,7 @@ nav {
     padding: 1px;
     display: flex;
     justify-content: flex-end;
-    border-bottom: 2px solid black;
+    border-bottom: 10px solid black;
 }
 
 nav a {
@@ -105,15 +106,16 @@ footer {
 }
 
 footer a {
-    text-decoration: none;
-    background-color: #f0f0f0;
-    font-weight: bold;
+    text-decoration: none; 
+    padding: 1px; 
+    border-radius: 5px; 
+    background-color: orange; 
+    font-size: 15px;
 }
 
 footer a:hover {
     background-color: bisque;
     color: red;
-    border-radius: 5px;
 }
 
 .c1 {
@@ -174,6 +176,21 @@ label {
 }
   .three-col {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Create 3 equally sized columns */
-    gap: 20px; /* Adjust the space between the columns */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.img1 {
+    position: absolute;
+    border-radius: 5px;
+    top: 78px;
+    left: 5%;
+    filter: drop-shadow(0 -6mm 4mm rgb(210, 53, 0));
+}
+
+.img2{
+    position: absolute;
+    border-radius: none;
+    top: 550px;
+    left: 500px;
 }
